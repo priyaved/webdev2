@@ -1,0 +1,31 @@
+p {
+
+    
+    font-style: initial !important;
+    font-size: 18px !important;
+    color: mediumpurple !important;
+}
+
+h1,h2,
+h3 {
+
+    border-color: black !important;
+    border: 0.5px dotted rebeccapurple !important;
+    color: navy !important;
+    font-weight: 400 !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-variant: small-caps !important;
+    font-size: 30px !important;
+
+}
+
+blockquote{
+    color: peru !important;
+    font-weight: 500 !important
+}
+
+ul{
+    color: rgb(226, 94, 226);
+    font-size: 14px;
+    
+}
