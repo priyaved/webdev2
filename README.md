@@ -9,3 +9,5 @@ this is practise
 5 - git branch -M master
 6 - git remote add origin (your repository link)
 7 - git push -u origin master
+
+
