@@ -1,0 +1,66 @@
+
+ul{
+
+    font-size: 18px; color: palegoldenrod; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+
+    color:black; font-size: 18px;
+}
+
+body{
+
+    background-color: white; 
+}
+
+ul{
+
+    display: inline-flex; width: 100%;
+    list-style: none; background-color:#f3d86d; 
+padding: 0%; margin-top: 0%;
+}
+
+ul li{
+
+    margin-left: 10px;  margin-right: 24rem; display: inline ; font-size: 20px;
+}
+
+img{
+
+    float: left;
+}
+
+
+h1,h2, h3{
+
+    font-size: 30px; font-variant: small-caps; color: rgb(66, 51, 22);
+}
+
+article{
+
+    font-size: 18px; color: rgb(66, 51, 22)
+}
+
+
+header{
+    background-color: white; background-image: url(../../image/people.jpg); height: 30rem; color: rgb(66, 51, 22)
+}
+
+section{
+    color: rgb(66, 51, 22);
+}
+
+p{
+    color: rgb(148, 121, 71);
+}
+
+label{
+
+    display: flex; flex-direction: row; text-align: left; width: 400px; line-height: 26px; margin-bottom: 1px; font-size: 22px; 
+    font-family: Georgia, 'Times New Roman', Times, serif ; color: rgba(6, 63, 13, 0.699); font-style: inherit; 
+}
+
+input{
+    height: 20px; flex: 0 0 200px; margin-left: 5px; border-radius: 0px; border-color: rgb(207, 253, 3);
+}
