@@ -16,13 +16,13 @@ body{
 ul{
 
     display: inline-flex; width: 100%;
-    list-style: none; background-color: olive; border-width: medium; text-align-last: justify ; 
-padding: 0%;
+    list-style: none; background-color:#f3d86d; 
+padding: 0%; margin-top: 0%;
 }
 
 ul li{
 
-    margin-left: 10px;  margin-right: 24rem; display: inline ;
+    margin-left: 10px;  margin-right: 24rem; display: inline ; font-size: 20px;
 }
 
 img{
@@ -33,7 +33,7 @@ img{
 
 h1,h2 {
 
-    font-size: 24px; font-variant: small-caps;
+    font-size: 24px; font-variant: small-caps; color: rgb(243, 161, 8);
 }
 
 article{
@@ -41,12 +41,24 @@ article{
     font-size: 18px;
 }
 
-div{
- background-color: tan;
-
-}
 
 header{
-    background-color: white;
+    background-color: white; background-image: url(../image/people.jpg); height: 30rem;
 }
 
+section{
+    color: rgb(148, 121, 71);
+}
+
+p{
+    color: rgb(148, 121, 71);
+}
+
+label{
+
+    display: flex; flex-direction: row; text-align: left; justify-content: baseline; width: 400px; line-height: 26px; margin-bottom: 15px; 
+}
+
+input{
+    height: 20px; flex: 0 0 200px; margin-left: 5px;
+}
