@@ -1,0 +1,15 @@
+div#media {
+    width: 1000px;
+    height: 500px;
+    background-image: url(../HTML/image/butter.jpg);
+
+}
+
+@media screen and (max-width: 950px) {
+
+    div#media {
+        width: 50%;
+        height: 80vh;
+        background-image: url(../HTML/image/leaf.webp);
+    }
+}

@@ -1,3 +1,40 @@
 body {
-    background-image: url('../../image/people.jpg'); background-repeat: repeat-x;
+    background-image: url('../../image/people.jpg');
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    color: #90c39b;
+    width: 100%; position: sticky;
 }
+
+div.client {
+    
+    background-blend-mode: hue;
+    margin-top: 9rem; 
+    border-radius: 40 px;
+    background: #c1ecca;
+    width: fit-content;
+
+    box-shadow: inset 26px -26px 51px #91b198, 
+                inset -26px 26px 51px #f1fffd
+    
+
+
+
+/* #header {
+    background-image: url(../../image/people.jpg);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    color: #90c39b;
+    width: 100%;
+    position: sticky;
+    height: 200px; */
+}
+
+/* #backback{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: larger;
+    padding: 1rem;
+    text-decoration: none;
+} */

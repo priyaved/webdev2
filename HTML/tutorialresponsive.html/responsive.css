@@ -1,0 +1,45 @@
+/* Dektop Version */
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    display: flex;
+}
+
+
+.child {
+    background-color: lightsalmon;
+    margin: 1px;
+    padding: 5rem;
+    width: 100%;
+}
+
+.child.p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+/* Mobile Version */
+@media only screen and  (max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        top: 0;
+    
+    }
+.mobile{
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.child{
+    margin:0
+}
+}
