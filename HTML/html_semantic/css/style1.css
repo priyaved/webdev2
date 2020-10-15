@@ -1,0 +1,269 @@
+
+body {
+
+    background-color: rgb(142, 172, 108);
+}
+
+
+header {
+    background-color: rgb(124, 153, 78);
+    background-image: url(../../image/people.jpg);
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+
+
+}
+
+header p {
+    color: #434629;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 65rem;
+    float: right;
+    text-align: left;
+}
+
+header img {
+
+    float: left
+    margin: 10px 800px;
+    width: 220px;
+
+}
+
+nav {
+    margin-top: 1rem;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-color: rgb(180, 153, 31);
+    
+    background-color:  rgb(142, 172, 108);
+    display: flex;
+}
+
+
+nav ul {
+
+    font-size: 16px;
+    color: rgb(170, 164, 101);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    padding: 2px;
+    margin: 0;
+    
+}
+
+nav ul li {
+
+    /* margin-left: 60px;
+    margin-right: 28rem; */
+    display: inline;
+    font-size: 20px;
+}
+
+nav ul li a{
+
+    margin: 11rem;
+    text-decoration: none;
+    color: #434629;
+
+
+}
+
+form{
+    float: right;
+    
+}
+
+form > input{
+
+    background-color: #d7dabe;
+    color: rgb(10, 9, 17)57, 160, 160);
+}
+
+p {
+
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* ul {
+
+    display: inline-flex;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(227, 231, 187);
+    padding: 0%;
+    margin-top: 0%;
+} */
+
+
+
+img {
+
+    float: left;
+}
+
+
+h1,
+h2,
+h3 {
+
+    font-size: 30px;
+    position: relative;
+    font-variant: small-caps;
+    color: rgb(66, 51, 22)
+}
+
+article {
+
+    font-size: 18px;
+    color: rgb(148, 121, 71)
+}
+
+
+
+
+
+
+
+
+
+label {
+
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px darkslategray;
+    flex-direction: row;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(6, 63, 13, 0.699);
+
+}
+
+#info {
+    margin-top: 12%;
+    border: rgb(132, 167, 123);
+    border-width: 3px;
+    border-style: groove;
+    border-right-width: 15rem;
+    border-left-width: 15rem;
+}
+
+#wrapper {
+
+    background-image: url(../../image/people.jpg);
+
+
+}
+
+input {
+
+    height: 22px;
+    flex: 0 0 200px;
+    margin-left: 5px;
+    border-radius: 0px;
+    border-color: rgb(207, 253, 3);
+    border-radius: 3px;
+}
+
+
+iframe {
+
+    border-radius: 30 px;
+    background: #c1ecca;
+    box-shadow: inset 26px -26px 51px #91b198,
+        inset -26px 26px 51px #f1fffd
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+
+}
+
+
+div#block_1 {
+    background-color: #8a2be2;
+
+    z-index: 0;
+    position: relative;
+    right: 50px;
+
+}
+
+div#block_2 {
+
+    background-color: rgb(236, 22, 22);
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    position: absolute;
+}
+
+div#block_3 {
+
+    background-color: rgb(22, 236, 218);
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    z-index: 0;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 30rem;
+}
+
+
+div#threecoloum {
+
+    column-count: 3;
+    margin-top: 10rem;
+    column-rule-style: double;
+    font-size: 18px;
+    color: rgb(148, 121, 71);
+}
+
+div#content {
+    background-color: rgb(134, 13, 13);
+
+
+}
+
+.demo>iframe {
+
+    float: none;
+    margin-left: 30rem;
+    border-radius: 40px;
+    display: block
+}
+
+.details {
+
+    backdrop-filter: blur(10px);
+}
+
+
+footer {
+    font-size: small;
+}
+
+
+@media only screen and (max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        top: 0;
+
+    }
+}
