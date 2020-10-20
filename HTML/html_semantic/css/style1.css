@@ -2,16 +2,17 @@
 body {
 
     background-color: rgb(142, 172, 108);
+    padding: 3px;
+    width: 100%;
+   
 }
 
 
 header {
     background-color: rgb(124, 153, 78);
     background-image: url(../../image/people.jpg);
-    height: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2px;
+    height: 12rem;
+        padding: 1px;
 
 
 }
@@ -20,17 +21,30 @@ header p {
     color: #434629;
     font-size: 40px;
     font-weight: 700;
-    margin-right: 65rem;
+    margin-right: 67rem;
     float: right;
     text-align: left;
+    padding-top: 3rem;
 }
 
 header img {
 
-    float: left
-    margin: 10px 800px;
+    float: left;
     width: 220px;
+    padding: 1rem;
 
+}
+
+form{
+    float: right;
+    margin-right: 4rem;
+    
+}
+
+form > input{
+
+    background-color: #d7dabe;
+    
 }
 
 nav {
@@ -39,9 +53,8 @@ nav {
     margin-bottom: 20px;
     border-style: groove;
     border-color: rgb(180, 153, 31);
-    
     background-color:  rgb(142, 172, 108);
-    display: flex;
+    
 }
 
 
@@ -51,7 +64,7 @@ nav ul {
     color: rgb(170, 164, 101);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    display: flex;
+    
     width: fit-content;
     padding: 2px;
     margin: 0;
@@ -64,6 +77,7 @@ nav ul li {
     margin-right: 28rem; */
     display: inline;
     font-size: 20px;
+    text-decoration: none;
 }
 
 nav ul li a{
@@ -75,16 +89,10 @@ nav ul li a{
 
 }
 
-form{
-    float: right;
-    
+.row {
+    margin-right: 0;
 }
 
-form > input{
-
-    background-color: #d7dabe;
-    color: rgb(10, 9, 17)57, 160, 160);
-}
 
 p {
 
@@ -130,12 +138,102 @@ article {
 }
 
 
+.footer{
+    padding-top: 20rem;
+}
+
+#box{
+    width: 1800px;
+}
 
 
+.content{
+width: 900px;
+text-align: justify;
+float: left;
+padding: 1rem;
+padding-top: 2rem;
+margin: 2px;
+}
 
 
+.sideimg img{
+    border-radius: 1rem;
+    opacity: 0.6;
+    margin: 2px;
+}
+
+.sideimg img:hover{
+opacity: 1;
+
+}
 
 
+.container{
+
+    margin: 2rem;
+    height: 800px;
+}
+
+.container .row{
+
+    margin-top: 2px;
+    padding: 20px;
+}
+
+.container .col{
+
+    margin: 2px;
+    padding: 2px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+div#block_1 {
+    background-color: #8a2be2;
+    z-index: 1;
+    position: relative;
+    right: 50px;
+    
+    
+
+}
+
+div#block_2 {
+
+    background-color: rgb(236, 22, 22);
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    position: absolute;
+}
+
+div#block_3 {
+
+    background-color: rgb(22, 236, 218);
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    z-index: 0;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 30rem;
+}
 
 label {
 
@@ -187,42 +285,10 @@ iframe {
 }
 
 
-.box {
-    width: 300px;
-    height: 300px;
-
-}
 
 
-div#block_1 {
-    background-color: #8a2be2;
 
-    z-index: 0;
-    position: relative;
-    right: 50px;
 
-}
-
-div#block_2 {
-
-    background-color: rgb(236, 22, 22);
-    width: 300px;
-    height: 300px;
-    z-index: 0;
-    position: absolute;
-}
-
-div#block_3 {
-
-    background-color: rgb(22, 236, 218);
-    width: 300px;
-    height: 300px;
-    position: fixed;
-    z-index: 0;
-    position: absolute;
-    margin-top: 20rem;
-    margin-left: 30rem;
-}
 
 
 div#threecoloum {
@@ -267,3 +333,4 @@ footer {
 
     }
 }
+
