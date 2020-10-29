@@ -1,3 +1,11 @@
+
+//selectors
+
+let usernameValue = document.getElementById ('username');
+let passwordValue = document.getElementById ('password');
+
+
+//logic
 function getUser(username, password) {
     let user_bool = (username == 'admin') ? true : false;
     let pass_bool = (password == '123456') ? true : false;
@@ -15,14 +23,30 @@ function getUser(username, password) {
 }
 
 
-// getUser('admin', '123456');
+//linking to html = call back function
+function loginHandler(){
 
-let result = getUser('admin', '123456');
+    console.log(usernameValue.value)
+    console.log(passwordValue.value)
+    let result = getUser(usernameValue.value, passwordValue.value);
 
 if (result.isUserAdmin == false || result.isPasswordValid == false) {
     console.log('Userame or Password incorrect')
+    alert ('Userame or Password incorrect')
 } else {
-    console.log('Welcome admin. username and password is correct')
+    console.log('Welcome admin. username and password is correct')  
+    alert ('Welcome admin. username and password is correct')             // getUser('admin', '123456');
+}
 }
 
-console.log(result);
+
+
+//console.log(result);
+
+
+
+
+
+    
+
+    
